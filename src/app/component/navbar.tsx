@@ -22,7 +22,9 @@ const Navbar = () => {
                 </li>
                
               </ul>
-              <button onClick={handleLogin} className="font-bold rounded-lg w-auto h-auto py-2 px-2 hover:bg-orange-400 bg-yellow-400">login</button>
+              <button onClick={handleLogin} className="transition-all duration-300 ease-in-out transform
+    hover:bg-opacity-90 hover:-translate-y-1 hover:scale-105 hover:shadow-lg
+    focus:outline-none focus:ring-4 focus:ring-orange-400 focus:ring-opacity-50 font-bold rounded-lg w-auto h-auto py-2 px-2 hover:bg-orange-400 bg-yellow-400">login</button>
             </div>
           </div>
         </div>
