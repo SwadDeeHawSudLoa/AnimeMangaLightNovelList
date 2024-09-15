@@ -13,7 +13,8 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
+    <div className="flex justify-center mt-2"><Navbar /></div>
+      
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-slate-800 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white ${showMessage ? 'opacity-100' : 'opacity-0'}`}>
         <h1 className="text-4xl font-bold animate-bounceIn">
