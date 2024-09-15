@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
       <>
-        <div className="rounded-2xl w-64 h-20 bg-emerald-800 sticky top-0">
+        <div className="px-6 rounded-2xl w-64 h-20 bg-emerald-800 sticky top-0">
           <div className="container mx-auto px-4 h-full">
             <div className="flex justify-between items-center h-full">
               <ul className="sm:flex md:flex gap-x-6 text-white">
